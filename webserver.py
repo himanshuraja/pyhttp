@@ -1,5 +1,5 @@
 import SimpleHTTPServer,SocketServer,sys
-PORT=sys.argv[1]
+PORT=sys.argv[1] #when running this enter port from command_line
 def runserver():
   try:
    httphandler=SimpleHTTPServer.SimpleHTTPRequestHandler
